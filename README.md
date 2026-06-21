@@ -12,10 +12,6 @@ The released code focuses on the architectural components described in the manus
 - audit-trail recording
 - system-level orchestration
 
-This repository is a research-code release focused on the method implementation. Dataset access, trained models, and experiment-specific configurations are handled separately according to data-use agreements and manuscript review requirements.
-
-Additional materials may be made available by the authors upon reasonable academic request, subject to data usage restrictions, model-release constraints, and ongoing research extensions.
-
 ## Structure
 
 ```text
@@ -34,10 +30,6 @@ mri_agent_system/
     message_bus.py
     orchestrator.py
 ```
-
-## Availability
-
-The public package exposes the framework-level control logic, message schemas, routing abstractions, report construction logic, and verification rules needed to inspect the method. Additional study materials may be provided by the authors upon reasonable academic request where permitted by dataset licenses and institutional policies.
 
 ## Citation
 
